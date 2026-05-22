@@ -1,0 +1,48 @@
+body{
+
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-color: rgb(71, 71, 71);
+
+
+}
+
+.menu {
+    width: 100px;
+    background-color: #0b0652;
+    padding: 20px;
+    height: 100vh;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.menu:hover{
+    width: 200px;
+}
+
+.conteudo {
+    flex: 1;
+    padding: 20px;
+}
+
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 0;
+
+}
+
+.content{
+    padding-left: 30px;
+    padding-top: 50px;
+    font-size: 20px;
+    color: white;
+}
